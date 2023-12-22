@@ -2,42 +2,42 @@ import math
 
 operator = str(input('Enter operatior: '))
 
-a = 0
+counter = 0
 num = int(input('Enter: '))
 
 match operator:
     case "+":
 
         while num != 0:
-            a += num
+            counter += num
             num = int(input('Enter: '))
 
-        print(a)
+        print(counter)
 
     case "-":
    
         while num != 0:
-            a -= num
+            counter -= num
             num = int(input('Enter: '))
 
-        print(a)
+        print(counter)
 
     case "*":
 
         while num != 0:
-            a *= num
+            counter *= num
             num = int(input('Enter: '))
 
-        print(a)
+        print(counter)
 
     case "/":
 
         while num != 0:
             num = int(input('Enter: '))
             if num != 0:
-                a /= num
+                counter /= num
 
-        print(a)
+        print(counter)
 
     case "root":
         num = int(input('Enter: '))
